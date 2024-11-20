@@ -1,0 +1,96 @@
+<head>
+    <meta charset="utf-8">
+    <style>
+        body{
+            text-align: center;
+        }
+        div{
+            font-size: 18px;
+            text-align: center; 
+        }
+        tr{
+            font-size: 18px;
+        }
+        .head{
+            font-size: 30px; 
+            font-weight: bold; 
+            color: #10209a;
+        }
+        .form{
+            width: 800; 
+            margin: auto;
+        }
+        table{
+            width: 500; 
+            margin: auto;
+        }
+        #container{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+        }
+        #background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        #overlay-video {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            opacity: 1;
+            border-radius: 0px;
+            box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./select image/1.jpg" alt="아스릭손-title" title="아스릭손-title" width="500">
+    </div><br><br>
+    <div class="head">
+        불편감이 느껴지는 관절, 근육에<br>
+        ONE DAY 크림으로 깊고 빠른 케어합니다!</div>
+    <div>
+        <img src="./select image/2.jpg" alt="아스릭손-2" title="아스릭손-2" width="500">
+    </div>
+    <div>
+        <img src="./select image/3.jpg" alt="아스릭손-3" title="아스릭손-3" width="600">
+    </div><br>
+    <div>
+        <table>
+            <tr>
+                <td align="center"> 아스릭손 (80ml)<br>
+                    리스토레이션 젤 <strong>펌핑형</strong></td>
+                <td align="center">아스릭손 (3g X 10ea)<br> 
+                    리스토레이션 젤 <strong>파우치형</strong></td>
+            </tr>
+        </table>
+    </div><br><br><br>
+    <div id="container">
+        <img src="./select image/5.jpg" alt="아스릭손-4" title="아스릭손-4" width="500">
+        <video src="https://www.shutterstock.com/shutterstock/videos/1088284773/preview/stock-footage-vfx-back-pain-augmented-reality-animation-close-up-of-a-female-experiencing-discomfort-in-a-result.webm"
+            id="overlay-video" autoplay loop muted>
+        </video>
+    </div>
+    <div>
+        <img src="./select image/6.jpg" alt="아스릭손-5" title="아스릭손-5" width="500">
+    </div><br>                    
+    <div class="form">
+        상담 신청하실 분은 아래로 <strong>이메일</strong> 과 <strong>자료 및 통증</strong> 에 대해 보내주세요!
+    </div><br>
+    <div class="form">
+        <form action="http://localhost/upload.php" method="get">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            이메일 : <input type="text" name="신청자" value="많이 신청해주세요!"> &nbsp;&nbsp;&nbsp;&nbsp; <input type="file"><br><br> 
+            <textarea cols="50" rows="10">통증에 대해 알려주세요!</textarea><br><br>            
+            <input type="image" src="./select image/button.png" width="250"><br><br><br> 
+        </form>
+    </div> 
+</body>
